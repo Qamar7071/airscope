@@ -1,0 +1,46 @@
+{
+  "description": "Approximate locality reference points used only to label locations in human-readable form (e.g. 'near I-10'). Coordinates are approximate (typically within about 0.5-1 km), compiled for AirScope from general geographic knowledge. Verify before any operational use.",
+  "license": "Created for AirScope; released with the project.",
+  "cities": {
+    "islamabad": [
+      ["E-7", 33.7300, 73.0480], ["F-6", 33.7290, 73.0760], ["F-7", 33.7215, 73.0560],
+      ["F-8", 33.7110, 73.0380], ["F-10", 33.6950, 73.0130], ["F-11", 33.6840, 72.9890],
+      ["E-11", 33.6990, 72.9780], ["G-6 / Aabpara", 33.7090, 73.0890], ["G-7", 33.6990, 73.0700],
+      ["G-8", 33.6930, 73.0500], ["G-9", 33.6870, 73.0300], ["G-10", 33.6780, 73.0130],
+      ["G-11", 33.6690, 72.9960], ["G-13", 33.6480, 72.9620], ["G-14", 33.6390, 72.9440],
+      ["I-8", 33.6680, 73.0750], ["I-9 Industrial Area", 33.6560, 73.0560], ["I-10", 33.6470, 73.0380],
+      ["I-11", 33.6380, 73.0230], ["H-8", 33.6830, 73.0650], ["H-9", 33.6720, 73.0450],
+      ["H-11", 33.6600, 73.0110], ["H-12", 33.6425, 72.9910], ["Blue Area", 33.7104, 73.0590],
+      ["Diplomatic Enclave", 33.7230, 73.1030], ["Bani Gala", 33.7120, 73.1500],
+      ["Golra / E-12", 33.6950, 72.9550], ["Tarnol", 33.6630, 72.9150], ["Zero Point", 33.6938, 73.0652],
+      ["Faizabad", 33.6630, 73.0840], ["Koral / Expressway", 33.6200, 73.1300], ["Sohan", 33.6280, 73.1050],
+      ["Raja Bazar (Rawalpindi)", 33.6170, 73.0660], ["Satellite Town (Rawalpindi)", 33.6380, 73.0720],
+      ["Pirwadhai (Rawalpindi)", 33.6380, 73.0420], ["Saddar (Rawalpindi)", 33.5975, 73.0480],
+      ["Chaklala (Rawalpindi)", 33.6100, 73.0950], ["Westridge (Rawalpindi)", 33.6000, 73.0200],
+      ["Adiala Road (Rawalpindi)", 33.5750, 73.0600], ["Shakarparian", 33.6920, 73.0850],
+      ["Rawal Lake", 33.7000, 73.1250], ["Margalla Hills foothills", 33.7450, 73.0600]
+    ],
+    "lahore": [
+      ["Walled City", 31.5820, 74.3170], ["Badami Bagh", 31.5950, 74.3300], ["Shahdara", 31.6250, 74.2850],
+      ["Mughalpura", 31.5650, 74.3700], ["Baghbanpura / Shalimar", 31.5850, 74.3800], ["Harbanspura", 31.5800, 74.4300],
+      ["Samanabad", 31.5400, 74.2950], ["Ichhra / Shadman", 31.5350, 74.3180], ["Krishan Nagar", 31.5600, 74.3000],
+      ["Gulberg", 31.5150, 74.3450], ["Garden Town", 31.5000, 74.3250], ["Model Town", 31.4850, 74.3250],
+      ["Faisal Town", 31.4800, 74.3000], ["Johar Town", 31.4700, 74.2750], ["Allama Iqbal Town", 31.5050, 74.2850],
+      ["Township", 31.4450, 74.3100], ["Kot Lakhpat", 31.4400, 74.3350], ["DHA", 31.4750, 74.4100],
+      ["Lahore Cantt", 31.5200, 74.3900], ["Thokar Niaz Baig", 31.4700, 74.2400], ["Wapda Town", 31.4300, 74.2650],
+      ["Raiwind Road", 31.4000, 74.2400], ["Data Darbar / Ravi Road", 31.5780, 74.3050], ["The Mall", 31.5560, 74.3290],
+      ["Allama Iqbal Airport", 31.5216, 74.4036], ["Chungi Amar Sidhu", 31.4500, 74.3600], ["Bund Road", 31.5550, 74.2650]
+    ],
+    "karachi": [
+      ["Lyari", 24.8650, 66.9950], ["Saddar", 24.8560, 67.0240], ["Kharadar / Mithadar", 24.8500, 66.9950],
+      ["Orangi Town", 24.9500, 66.9900], ["Baldia Town", 24.9250, 66.9700], ["SITE Industrial Area", 24.9000, 66.9950],
+      ["North Nazimabad", 24.9400, 67.0400], ["New Karachi", 25.0000, 67.0650], ["Federal B Area", 24.9300, 67.0700],
+      ["Gulshan-e-Iqbal", 24.9200, 67.0950], ["Gulistan-e-Johar", 24.9100, 67.1350], ["Nazimabad / Liaquatabad", 24.9100, 67.0350],
+      ["PECHS / Tariq Road", 24.8700, 67.0600], ["Korangi", 24.8300, 67.1300], ["Landhi", 24.8500, 67.2100],
+      ["Malir", 24.8900, 67.2000], ["Shah Faisal Colony", 24.8750, 67.1650], ["Clifton", 24.8150, 67.0300],
+      ["DHA", 24.8000, 67.0650], ["Keamari", 24.8350, 66.9780], ["Mehmoodabad", 24.8550, 67.0900],
+      ["Jinnah International Airport", 24.9065, 67.1608], ["Karachi University", 24.9420, 67.1150],
+      ["Korangi Industrial Area", 24.8300, 67.1250], ["Sohrab Goth", 24.9500, 67.0950]
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+# Optional extras. AirScope works without them.
+# XGBoost adds a third member to the model ensemble (detected automatically at runtime).
+xgboost-cpu==3.2.0; sys_platform == "linux" or sys_platform == "win32"
+xgboost==3.2.0; sys_platform == "darwin"   # macOS may also need `brew install libomp`

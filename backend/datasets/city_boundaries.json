@@ -1,0 +1,83 @@
+{
+  "type": "FeatureCollection",
+  "name": "airscope_city_domains",
+  "description": "Simplified, hand-digitised analysis domains for AirScope. They approximate the built-up urban extent of each city for modelling purposes and are NOT administrative boundaries. Coordinates are WGS84 (lon, lat).",
+  "license": "Created for AirScope; released with the project. Approximate geometry - do not use for legal or administrative purposes.",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "islamabad",
+        "name": "Islamabad",
+        "country": "Pakistan",
+        "timezone": "Asia/Karachi",
+        "is_primary": true,
+        "center": {"lat": 33.6938, "lon": 73.0652, "label": "Zero Point (city reference point)"},
+        "grid_cell_km": 0.5,
+        "coverage_radius_km": 2.0,
+        "correlation_length_km": 3.0,
+        "openaq_radius_m": 25000,
+        "domain_note": "Approximate analysis domain covering Islamabad's urban sectors and the adjoining Rawalpindi urban area, which share one airshed. Hand-digitised simplification, not an administrative boundary."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [72.955, 33.716], [73.000, 33.735], [73.040, 33.752], [73.090, 33.753],
+          [73.130, 33.741], [73.170, 33.727], [73.186, 33.690], [73.162, 33.640],
+          [73.142, 33.592], [73.110, 33.560], [73.040, 33.555], [72.995, 33.578],
+          [72.968, 33.622], [72.905, 33.655], [72.915, 33.698], [72.955, 33.716]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lahore",
+        "name": "Lahore",
+        "country": "Pakistan",
+        "timezone": "Asia/Karachi",
+        "is_primary": false,
+        "center": {"lat": 31.5497, "lon": 74.3436, "label": "Lahore city centre (The Mall)"},
+        "grid_cell_km": 0.75,
+        "coverage_radius_km": 2.0,
+        "correlation_length_km": 3.5,
+        "openaq_radius_m": 25000,
+        "domain_note": "Approximate analysis domain covering Lahore's main built-up area on both banks of the Ravi. Hand-digitised simplification, not an administrative boundary."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [74.232, 31.642], [74.300, 31.668], [74.382, 31.642], [74.458, 31.612],
+          [74.492, 31.540], [74.472, 31.452], [74.402, 31.393], [74.300, 31.383],
+          [74.218, 31.398], [74.178, 31.450], [74.188, 31.532], [74.212, 31.600],
+          [74.232, 31.642]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "karachi",
+        "name": "Karachi",
+        "country": "Pakistan",
+        "timezone": "Asia/Karachi",
+        "is_primary": false,
+        "center": {"lat": 24.8607, "lon": 67.0011, "label": "Karachi city centre (M.A. Jinnah Road)"},
+        "grid_cell_km": 0.75,
+        "coverage_radius_km": 2.5,
+        "correlation_length_km": 4.0,
+        "openaq_radius_m": 25000,
+        "domain_note": "Approximate analysis domain covering Karachi's main built-up area from Keamari to Landhi and Malir, bounded by the coastline to the south. Hand-digitised simplification, not an administrative boundary."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [66.955, 24.850], [66.962, 24.932], [66.982, 24.988], [67.040, 25.012],
+          [67.112, 25.002], [67.182, 24.962], [67.232, 24.902], [67.218, 24.838],
+          [67.150, 24.814], [67.085, 24.789], [67.030, 24.798], [66.985, 24.815],
+          [66.955, 24.850]
+        ]]
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "meta": {"name": "openaq-api", "page": 1, "limit": 1000, "found": 3},
+  "results": [
+    {"value": 41.5, "flagInfo": {"hasFlags": false}, "parameter": {"id": 2, "name": "pm25", "units": "µg/m³"},
+     "period": {"label": "1hour", "interval": "01:00:00", "datetimeFrom": {"utc": "2026-11-08T00:00:00Z", "local": "2026-11-08T05:00:00+05:00"}, "datetimeTo": {"utc": "2026-11-08T01:00:00Z", "local": "2026-11-08T06:00:00+05:00"}}},
+    {"value": 44.0, "flagInfo": {"hasFlags": false}, "parameter": {"id": 2, "name": "pm25", "units": "µg/m³"},
+     "period": {"label": "1hour", "interval": "01:00:00", "datetimeFrom": {"utc": "2026-11-08T01:00:00Z", "local": "2026-11-08T06:00:00+05:00"}, "datetimeTo": {"utc": "2026-11-08T02:00:00Z", "local": "2026-11-08T07:00:00+05:00"}}},
+    {"value": null, "flagInfo": {"hasFlags": true}, "parameter": {"id": 2, "name": "pm25", "units": "µg/m³"},
+     "period": {"label": "1hour", "interval": "01:00:00", "datetimeFrom": {"utc": "2026-11-08T02:00:00Z", "local": "2026-11-08T07:00:00+05:00"}}}
+  ]
+}

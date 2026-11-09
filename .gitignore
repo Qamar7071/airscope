@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment / secrets
+.env
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# Generated model artifacts (re-created by `make train` or on first start)
+backend/models/*
+!backend/models/.gitkeep
+
+# Live API cache (bundled demo caches in backend/cache/*_demo.json ARE committed)
+backend/cache/live/
+*.tmp
+
+# Node / frontend build
+node_modules/
+frontend/dist/
+frontend/node_modules/.tmp/
+*.tsbuildinfo
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
